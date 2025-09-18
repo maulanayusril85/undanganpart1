@@ -265,3 +265,9 @@ hr {
       padding:8px 10px; font-size:.9rem; color:#fff;
       background: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,0));
     }
+
+.katakata,
+.namasurat{
+  font-size: clamp(0.9rem, 2.2vw, 1.125rem);
+  line-height: 1.6;
+}
