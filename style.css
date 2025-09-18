@@ -236,3 +236,32 @@ hr {
     opacity: 1;
     transform: translateY(0);
   }
+
+
+
+
+  body { font-family: Arial, sans-serif; margin:0; background:#faf9f8; }
+    .gallery-section { --gap: 14px; --min: 220px; padding:48px 16px; }
+    .container { max-width: 1100px; margin:auto; }
+    .gallery-head h2 { font-size:2rem; margin:0 0 10px; text-align:center; }
+    .gallery-head p { color:#666; margin:0 0 20px; text-align:center; }
+
+    .gallery-grid {
+      display:grid;
+      grid-template-columns: repeat(auto-fill, minmax(var(--min), 1fr));
+      grid-auto-rows: 180px;
+      gap: var(--gap);
+    }
+    .item { position:relative; overflow:hidden; border-radius:12px; }
+    .item img { width:100%; height:100%; object-fit:cover; display:block; transition:.3s; }
+    .item:hover img { transform: scale(1.05); }
+    .item.wide { grid-column: span 2; }
+    .item.tall { grid-row: span 2; }
+    @media (max-width:600px){
+      .item.wide,.item.tall{grid-column:span 1;grid-row:span 1;}
+    }
+    .item figcaption {
+      position:absolute; left:0; right:0; bottom:0;
+      padding:8px 10px; font-size:.9rem; color:#fff;
+      background: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,0));
+    }
