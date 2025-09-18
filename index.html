@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Undangan Sederhana (Animated)</title>
+
+  <!-- GANTI FONT di style.css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+  <!-- ====== HERO ====== -->
+  <header class="hero">
+    <img class="hero__bg" src="img/FTR_2190.jpg" alt="Cover" />
+    <div class="hero__veil"></div>
+    <div class="container hero__inner reveal">
+      <p class="eyebrow">The Wedding of</p>
+      <h1 class="display">Rizky & Fauza</h1>
+        <time id="eventDate" datetime="2025-11-02T13:00:00+07:00">Minggu, 2 November 2025</time>
+      </p>
+      <div id="countdown" class="countdown"></div>
+      <a href="#home" class="btn1" mt-4>Lihat Undangan</a>
+    </div>
+  </header>
+
+  <!-- ====== MEMPELAI ====== -->
+  <section id = "home" class="section section--paper">
+    <div class="container">
+      <br>
+      <p class="katakata"><i>Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri,<br> agar kamu dan merasa tentram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.<br> Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir</i></p>
+      <h3 class="namasurat">QS. Ar-Rūm: 21</h3>
+      <hr>
+      <h2 class="h2 reveal">Mempelai</h2>
+      <div class="grid two">
+        <figure class="person reveal">
+          <div class="frame frame--gold">
+            <img src="img/pengantinpria21.jpg" alt="Mempelai Pria" />
+          </div>
+          <br>
+          <div class="nama">Rizky</div>
+            <div class="namapanjang">Rizky Tomen</div>
+            <div class="deskripsi">
+                Putra Pertama Dari Pasangan <br>
+                <span class="miring">Bapaknya Rizky & Ibunya Rizky</span> <br>
+                <span class="miring">Bangil</span>
+            </div>
+        </figure>
+        <figure class="person reveal">
+          <div class="frame frame--gold">
+            <img src="img/pengantinwanita.jpg" alt="Mempelai Wanita" />
+          </div>
+          <br>
+          <div class="nama">Fauza</div>
+            <div class="namapanjang">Fauza Uus</div>
+            <div class="deskripsi">
+                Putra Pertama Dari Pasangan <br>
+                <span class="miring">Bapaknya Rizky & Ibunya Rizky</span> <br>
+                <span class="miring">Bangil</span>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== DETAIL ACARA ====== -->
+  <section id="event" class="section section--event-split">
+    <div class="event-split container">
+      <!-- LEFT -->
+      <article class="event-box">
+        <h2 class="event-title">Akad Nikah</h2>
+        <p class="event-sub">Sabtu, 05 Oktober 2019</p>
+        <p class="event-sub">10.00 WITA - Selesai</p>
+
+        <p class="event-venue">Acarakami Venue, Denpasar</p>
+        <p class="event-addr">Jl. Raya Sanur, Denpasar Selatan, Bali</p>
+
+        <a class="btn btn--pill" href="https://maps.app.goo.gl/..." target="_blank" rel="noopener">Google Maps</a>
+      </article>
+
+      <!-- RIGHT -->
+      <article class="event-box">
+        <h2 class="event-title">Resepsi</h2>
+        <p class="event-sub">Sabtu, 05 Oktober 2019</p>
+        <p class="event-sub">10.00 WITA - Selesai</p>
+
+        <p class="event-venue">Golden Venue, Denpasar</p>
+        <p class="event-addr">Jl. Raya Sanur, Denpasar Selatan, Bali</p>
+
+        <a class="btn btn--pill" href="https://maps.app.goo.gl/..." target="_blank" rel="noopener">Google Maps</a>
+      </article>
+    </div>
+    <br>
+  </section>
+
+  <!-- ====== GALERI ====== -->
+  <section class="gallery" id="gallery" style="padding: 40px; text-align: center;">
+    <h2 class="fade-up">Galeri Foto</h2>
+    <div class="gallery-container">
+      <img src="img/pengantinwanita.jpg" alt="Foto 1" class="fade-up">
+      <img src="img/pengantinwanita.jpg" alt="Foto 2" class="fade-up">
+      <img src="img/pengantinwanita.jpg" alt="Foto 3" class="fade-up">
+      <img src="img/pengantinwanita.jpg" alt="Foto 4" class="fade-up">
+      <img src="img/pengantinwanita.jpg" alt="Foto 5" class="fade-up">
+    </div>
+  </section>
+  
+
+  <footer class="footer">
+    <div class="container text-center">
+      <p class="muted reveal">Terima kasih atas doa dan kehadiran. Sampai jumpa di hari bahagia kami.</p>
+      <p class="copy reveal">© 2025 — Leo & Taylor</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

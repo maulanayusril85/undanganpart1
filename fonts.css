@@ -1,0 +1,29 @@
+/* ============================================================
+   FONT-FAMILY OVERRIDES — UBAH DI SINI (EDIT HERE)
+   File ini memegang semua pengaturan font. Letakkan SETELAH style.css.
+   ============================================================ */
+
+/* BODY / paragraf / list */
+body{ font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; } /* EDIT HERE */
+
+/* Eyebrow (contoh: "The Wedding of") */
+.eyebrow{ font-family: "Work Sans", sans-serif; } /* EDIT HERE */
+
+/* Display (nama utama di hero) */
+.display{ font-family: "Great Vibes", cursive; } /* EDIT HERE */
+
+/* Judul section */
+.h2, h2{ font-family: "Marcellus", serif; } /* EDIT HERE */
+
+/* Nama & caption mempelai */
+.name, .caption, .namapanjang, .nama{ font-family: "Poppins", sans-serif; } /* EDIT HERE */
+
+/* Detail acara */
+.event-title{ font-family: "Marcellus", serif; } /* EDIT HERE */
+.event-sub, .event-venue, .event-addr{ font-family: "Poppins", sans-serif; } /* EDIT HERE */
+
+/* Tombol */
+.btn, .btn1{ font-family: "Poppins", sans-serif; } /* EDIT HERE */
+
+/* Catatan / footer / teks kecil */
+.bankline, .muted, .copy{ font-family: "Poppins", sans-serif; } /* EDIT HERE */
